@@ -35,6 +35,8 @@ export class AppComponent {
     const numbers = '1234567890';
     const letters = 'abcdefghijklmnopqrstuvwxyz';
     const symbols = '!@#$%^&*()';
+    console.log('hi');
+
     let validChars = '';
     if (this.includeLetters) {
       validChars += letters;
